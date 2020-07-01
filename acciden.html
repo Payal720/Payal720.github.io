@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+	body{
+		  background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 50%,#DBFFFF 0%);
+          text-align: center;
+          margin-top: 100px;
+	}
+    a{
+  border: 1px solid #50d1c0;
+    border-radius: 80px;
+    padding: 12px 35px;
+    outline: none;
+    color: #282828;
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    }
+  a:hover{
+    background:#85B7CD;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    color: #fff;
+    text-decoration: none;
+    }
+  
+	</style>
+</head>
+<body>
+       <form method="post" id="register" action="#">
+            <h1 style="color:  #282828">Claim Assistance</h1>
+            <span style="font-size: 18px; color:#282828;font-family: sans-serif; font-style: italic;">What is Claim for?</span><br>
+            <input type="radio" name="Car Insurance" id="Car_Insurance" required><span id="Car Insurance" style="color:#282828;">&nbsp; Car Insurance</span>&nbsp;&nbsp;
+            <input type="radio" name="Two Whealer Insurance" id="Two_Whealer_Insurance" required><span id="Two Whealer Insurance" style="color:#282828">&nbsp; Two Whealer  Insurance</span>&nbsp;&nbsp;<br><br>
+            <label>Registered Mobile No.</label><br>
+            <input type="text" name="mobile" id="phn" placeholder="Mobile no. used while purchase" required><br><br>
+            <label>Your Name</label><br>
+            <input type="name" name="name" id="name" placeholder="Enter Your Name" required><br><br>
+            <label>Your Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required><br><br>
+            <label>(optional)Tell us about what happen</label><br>
+            <input type="text" name="tell"  id="tell" placeholder="Elaborate Your Situation..." required><br><br>
+            <a href="main.html">Request Claim Assistance</a>
+          
+          </form>   
+</body>
+</html>

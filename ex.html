@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<style>
+  body
+  {
+background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 50%,#DBFFFF 0%);
+          text-align: center;
+  }
+.filterDiv {
+  float: left;
+  color: #282828;
+  line-height: 100px;
+  text-align: center;
+  margin: 3px;
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.container {
+  margin-top: 20px;
+  }
+
+/* Style the buttons */
+.btn {
+   cursor: pointer;
+   border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.btn:hover {
+ background:#50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    color:#fff;
+    text-decoration: none;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+</style>
+<body>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('cars')">Haryana</button>
+  <button class="btn" onclick="filterSelection('animals')">Himachal</button>
+  <button class="btn" onclick="filterSelection('fruits')">Shimla</button>
+  <button class="btn" onclick="filterSelection('colors')">Punjab</button>
+</div>
+
+<div class="container">
+   <div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <h1>Ambala Garages</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </div>
+ <div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <h4>City AutoMobile</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     </div>
+<div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>Plot Number-16, Industrial Area, Ambala - 133003, Near Gopi Mixi, GT Road</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+<div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <h4>Contact : <a href="tel: 9511188790">+91 9511186693</a></h4>
+</div>
+<div class="filterDiv cars"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          
+      <h4>Car Motor</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <p>Shop No.10, Railway Road, Ambala Cantt, Ambala - 133001</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <h4>Contact : <a href="tel: 9417015523">+91 9417010925</a></h4>
+</div>
+<div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h4>Saini  Motors</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <p>74/12 G, G T Rd, Ambala City, Ambala - 134003, Jasmeet Ngr, Opp Police Station</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <h4>Contact : <a href="tel: 9465749874">+91 94657493429</a></h4>
+          <br>
+</div>
+<div class="filterDiv colors">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <h1>Amritsar Garages</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Automobile Kapoors</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>32, Kennedy Avenue, Court Road, Amritsar, Amritsar - 143002, Amritsar</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 8413149812">+91 8413149812</a></h4>
+             <br>
+</div>
+<br><div class="filterDiv colors">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Car o Bar</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Opp .Kosmo Hyundai, Batala Road, Amritsar - 143002</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9417108385">+91 9417108385</a></h4>
+</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<div class="filterDiv colors">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Ahuja Automobiles</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Batala Road, Amritsar - 143002</p></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="filterDiv colors">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9464740981">+91 9464740981</a></h4>
+             <br>
+</div>
+ <div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1>Gurgaon Garages</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Jvs AutoMobile</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Office No-1, Opp. Paras Dews Building, Gurgaon - 122006, Gurgaon</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9511855179">+91 9511855179</a></h4>
+             <br>
+</div>
+ <div class="filterDiv cars"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+           <h4>The Car Junction</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Khasra No 615, Malikpur Kohi, Rangpuri, Near Tata Telco Service Station, Rangpuri, Delhi - 110037, OPP KS Hero Service Station</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 >Contact : <a href="tel: 9417015523">+91 9417010925</a></h4>
+             <br>
+</div> <div class="filterDiv cars">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <h4>Ring Road Honda</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Plot Number-33, Gurgaon Sector-18, Gurgaon - 122015, Maruti Industrial Area,Near Police Station</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9465749874">+91 94657493429</a></h4>
+               <br>
+</div>
+<div class="filterDiv colors">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1>Ferozpur Garages</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <h4>Hind Automobile</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Faridkot Road, Guruharsahai, Ferozepur - 152022, Near Petrol Pump</p>
+            <h4>Contact : <a href="tel: 9501086693">+91 9501086693</a></h4>
+             <br>
+</div>
+ <div class="filterDiv colors">
+            <h4>Satluj Automobile</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Cantonment Area, Ferozepur Cantt, Ferozepur - 152001</p>
+            <h4>Contact : <a href="tel: 9417009985">+91 9417009985</a></h4>
+             <br>
+</div>
+ <div class="filterDiv colors">
+            <h4>Speed Motor Garage</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Zila Parisad Markeet, The Mall Road, Ferozepur - 152002, Near Railway Bridge</p>
+            <h4>Contact : <a href="tel: 9465374749">+91 9465374749</a></h4>
+             <br>   
+</div>
+<br>
+<div class="filterDiv colors">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1>Pathankot Garages</h1>
+</div>
+<div class="filterDiv colors">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <h4>The Garage</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>The Garage, Saili Road, Dhangu Road, Pathankot - 145001, Near HDFC Bank</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9613149812">+91 9613149812</a></h4>
+</div>
+<div class="filterDiv colors">
+            <h4>City Automobile</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Saili Road, Dhangu Road, Pathankot - 145001, Near Hdfc Bank</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9417119985">+91 9417119985</a></h4>
+</div>
+<div class="filterDiv colors">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Classic Auto Garage</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Jalandhar Dalhousie Bypass, Mamun, Av College Road, Pathankot, Pathankot - 145001, Near Av College</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9464749209">+91 9464749209</a></h4>
+</div>
+<div class="filterDiv fruits">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1>Shimla Garages</h1>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div class="filterDiv fruits"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <h4>Roaing Engines Auto Works</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Khol Gali, Rohru Road, Theog Shimla, Shimla - 171201, Near Rohru Dhaba</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9511186693">+91 9511186693</a></h4>
+</div>
+<div class="filterDiv fruits">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Motor Point</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Firnooghati, Narkand, Shimla - 171213</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 9417010925">+91 9417010925</a></h4>
+</div>
+<div class="filterDiv fruits">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Goyal Motors</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Tara devi,Shimla - 171213</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>Contact : <a href="tel: 94657493429">+91 94657493429</a></h4>
+</div>
+<div class="filterDiv animals">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1>Sirmour Garages</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div class="filterDiv animals">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              <h4>Veetrag Motors</h4>
+            <p>Hosptal Round , Nahan Distt Sirmour - 173001 </p>
+            <h4>Contact : <a href="tel: 9417010925">+91 9417010925</a></h4>
+</div>
+<div class="filterDiv animals"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            
+            <h4>Goyal Motors</h4>
+            <p>Shamsherpur,Paonta Sahib Distt-Sirmour - 173025</p>
+            <h4>Contact : <a href="tel: 9465745263">+91 9465745263</a></h4>
+</div>
+<div class="filterDiv animals">            
+            <h4>Aggarwal Motors</h4>
+            <p>Gunnu Ghat Nahan Distt Sirmour - 173001</p>
+            <h4>Contact : <a href="tel: 94657493429">+91 94657493429</a></h4>
+</div>
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>

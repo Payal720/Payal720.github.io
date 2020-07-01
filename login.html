@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<style>
+	body{
+		  background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 50%,#DBFFFF 0%)
+	}
+	form{
+		position: relative;
+		text-align: center;
+		color: #282828;
+		margin-top: 140px;
+		}
+	.submitbtn{
+	border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 6px;
+    padding: 12px 35px;
+    outline: none;
+    color: #282828;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    text-decoration: none;
+	}
+	.submitbtn:hover{
+    background:#85B7CD;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    color: #fff;
+    text-decoration: none;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 800;
+}
+.itype{
+    border-radius: 80px 80px 80px 80px!important;
+    min-height: 40px;
+    min-width: 300px;
+    font-size: 1.3rem;
+}
+.itype:hover{
+	background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    color: #606060;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<form  ng-app="myApp"  ng-controller="validateCtrl"
+name="myForm" novalidate>
+
+<p>Email:<br>
+  <input class="itype" type="email" name="email" ng-model="email" autocomplete="off" required><br>
+  <span style="color:red" ng-show="myForm.email.$invalid">
+  <span ng-show="myForm.email.$error">Email is required.</span>
+  <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+  </span>
+</p>
+<p>Password:<br>
+  <input class="itype" type="password" name="password" ng-model="password" autocomplete="off" required><br>
+  <span style="color:red" ng-show="myForm.password.$invalid">
+  <span ng-show="myForm.password.$error.required">Password is required.</span>
+  <span ng-show="myForm.password.$error.password">Invalid password.</span>
+  </span>
+</p>
+<p>
+  <input  class="submitbtn" type="submit"
+  ng-disabled="myForm.user.$invalid  myForm.email.$invalid">
+</p>
+
+</form>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('validateCtrl', function($scope) {
+  $scope.email;
+  $scope.password;
+});
+</script>
+
+</body>
+</html>
